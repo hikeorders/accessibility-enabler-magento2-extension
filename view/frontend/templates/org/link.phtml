@@ -1,0 +1,17 @@
+<script>
+    require.config({
+        map: {
+            '*': {
+                'orgjs': '<?php echo $this->getOrgUrl(); ?>'
+            }
+        }
+    });
+
+    require([
+        'jquery',
+        'orgjs'
+    ], function ($, orgJs) {
+
+    });
+
+</script>

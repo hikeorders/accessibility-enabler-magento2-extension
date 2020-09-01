@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="org" translate="label" sortOrder="1">
+            <label>Accessibility Enabler</label>
+        </tab>
+        <section id="org" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Configuration</label>
+            <tab>org</tab>
+            <resource>HikeOrders_A11yenabler::org</resource>
+            <group id="config" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>OrgID Setup</label>
+                <field id="id" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="1" translate="label"
+                       type="text">
+                    <label>Org ID</label>
+                    <comment>Fetch your OrgID from Accessibility Enabler App and paste it here. Login / register if required.</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
