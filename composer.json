@@ -1,5 +1,5 @@
 {
-	"name": "hikeorders/Accessibility-Enabler-Magento2-Extension",
+	"name": "hikeorders/accessibility-enabler-magento2-extension",
 	"require": {
 	"php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0|~7.3.0",
 		"magento/module-store": "100.*|101.*",
