@@ -9,11 +9,11 @@
             <tab>org</tab>
             <resource>HikeOrders_A11yenabler::org</resource>
             <group id="config" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>OrgID Setup</label>
+                <label>Widget Code Setup</label>
                 <field id="id" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="1" translate="label"
                        type="text">
-                    <label>Org ID</label>
-                    <comment>Fetch your OrgID from Accessibility Enabler App and paste it here. Login / register if required.</comment>
+                    <label>Widget Code</label>
+                    <comment>Fetch your Widget Code from Accessibility Enabler App and paste it here. Login / register if required.</comment>
                 </field>
             </group>
         </section>
