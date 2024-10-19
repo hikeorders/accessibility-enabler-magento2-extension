@@ -1,9 +1,48 @@
 <?xml version="1.0"?>
 <csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp:etc/csp_whitelist.xsd">
     <policies>
+
         <policy id="default-src">
             <values>
-                <value id="hikeorders" type="host" >*.hikeorders.com</host>
+                <value id="a11yenabler-js-script" type="host">https://jsappcdn.hikeorders.com</value>
+                <value id="a11yenabler-api-connect" type="host">https://a11yenablerapi.hikeorders.com</value>
+            </values>
+        </policy>
+
+
+        <policy id="script-src">
+            <values>
+                <value id="a11yenabler-script" type="host">https://jsappcdn.hikeorders.com</value>
+            </values>
+        </policy>
+
+        <policy id="font-src">
+            <values>
+                <value id="a11yenabler-font" type="host">https://jsappcdn.hikeorders.com</value>
+            </values>
+        </policy>
+
+        <policy id="frame-src">
+            <values>
+                <value id="a11yenabler-frame" type="host">https://jsappcdn.hikeorders.com</value>
+            </values>
+        </policy>
+
+        <policy id="img-src">
+            <values>
+                <value id="a11yenabler-image" type="host">https://jsappcdn.hikeorders.com</value>
+            </values>
+        </policy>
+
+        <policy id="style-src">
+            <values>
+                <value id="a11yenabler-style" type="host">https://jsappcdn.hikeorders.com</value>
+            </values>
+        </policy>
+
+        <policy id="connect-src">
+            <values>
+                <value id="a11yenabler-api" type="host">https://a11yenablerapi.hikeorders.com</value>
             </values>
         </policy>
     </policies>
