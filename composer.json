@@ -23,5 +23,19 @@
 		"psr-4": {
 			"HikeOrders\\A11yenabler\\": ""
 		}
-	}
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://repo.packagist.org",
+			"options": {
+				"priority": 10
+			}
+		},
+		{
+			"type": "composer",
+			"url": "https://repo.magento.com",
+			"canonical": false
+		}
+	]
 }
