@@ -4,7 +4,7 @@ This module adds [Accessibiity Enabler](https://hikeorders.com/accessibility/hom
 
 ### Installation
 
-* `composer require  hikeorders/accessibility-enabler-magento2-extension:dev-master`
+* `composer require hikeorders/Accessibility-Enabler-Magento2-Extension:dev-master`
 * `php bin/magento module:enable HikeOrders_A11yenabler`
 * `php bin/magento setup:upgrade`
 * `php bin/magento setup:di:compile`

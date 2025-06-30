@@ -21,6 +21,7 @@ class ConfigPlugin
      * AddPromotionToConfigPlugin constructor.
      *
      * @param RequestInterface $request
+     * @param \MageWorx\SearchSuiteAutocomplete\Helper\Data $helper
      */
     public function __construct(
         RequestInterface $request
